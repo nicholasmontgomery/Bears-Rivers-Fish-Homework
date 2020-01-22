@@ -15,4 +15,5 @@ attr_reader :name, :type
   def eats_fish(fish_name)
     @stomach.push(fish_name)
   end
+
 end
